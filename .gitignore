@@ -1,0 +1,8 @@
+# Claude Code local settings
+.claude/
+
+# Project source files not yet ready to publish
+Circuit_PFC_V1_Final.pdf
+Datasheets/
+Images/
+info.txt
