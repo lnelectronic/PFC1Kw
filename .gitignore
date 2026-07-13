@@ -1,8 +1,25 @@
 # Claude Code local settings
 .claude/
 
+# Internal working files — not part of the public repo
+plan/
+report/
+docs/
+CLAUDE.md
+CONTEXT.md
+
 # Project source files not yet ready to publish
 Circuit_PFC_V1_Final.pdf
-Datasheets/
 Images/
 info.txt
+
+# Only whitelisted datasheets/circuit files are public
+Datasheets/*
+!Datasheets/ucc28180.pdf
+!Datasheets/shemeticV1.pdf
+!Datasheets/214_Design.pdf
+!Datasheets/anp015_en.pdf
+!Datasheets/Ch 17.Input Filter Problem.pdf
+
+circuit/*
+!circuit/pfc_v1.png
